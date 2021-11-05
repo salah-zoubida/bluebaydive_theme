@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="bluebaydive_theme_asset" inherit_id="website.assets_frontend" name="Blue bay dive Theme Assets">
+		<xpath expr="." position="inside">
+			<link rel="stylesheet" type="text/scss" href="/bluebaydive_theme/static/src/scss/dive_theme.scss"/>
+			<link rel="stylesheet" type="text/css" href="/bluebaydive_theme/static/lib/fonticon/strock-gap-icons.css"/>
+			<!--   <link rel="stylesheet" href="/bluebaydive_theme/bxslider-4-4.2.12/src/css/jquery.bxslider.css"/> -->
+			  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/> -->
+		</xpath>
+
+	    <xpath expr="//script[last()]" position="after">
+            <script  src="/bluebaydive_theme/static/src/js/javascript.js" type="text/javascript"></script>
+	  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        </xpath>
+
+    </template>
+    
+
+</odoo>

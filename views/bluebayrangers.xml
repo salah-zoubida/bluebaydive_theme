@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="bluebayrangers_blue_theme" name="bluebayrangers" inherit_id="bluebaydive_theme.bluebayrangers">
+  <xpath expr="//div[@id='wrap']" position="replace">
+  		<div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+  			<div class="inner-wrapper">
+    <div class="columns-row 2-cols container">
+    <div class="col-1-2 layout-position" data-layout-position-name="First Row Left Column">
+        <div class="cms-text container">
+    <h3 style="text-align:justify">Come and join the Blue Bay Rangers!</h3>
+
+<p style="text-align:justify">We have is <strong>Tito </strong>the Turtle, with his 3 friends: Michelangelo, Donatello &amp; Raphael. With their 100 years of knowledge, they have developed an amazing program for you to follow throughout the school year. They taught our staff all they know to make you a better, more knowledgeable, and responsible citizen of the world through fun activities. <br/>
+ </p>
+
+<p style="text-align:justify">There are 40 meetups a school year (not during school holidays) where you the Ranger can follow the program and earn badges along the way. There are 10 overarching themes, each running for 4 weeks. At the end of such a theme, if you have followed all 4 lessons, you can earn a certificate. If you earn all 10 certificates at the end, you have completed the entire program of the year!</p>
+
+<p style="text-align:justify">The 4 lessons within the themes all have to do with the same subject. So, there will be different activities every week keeping it interesting and educational. <br/>
+ </p>
+
+<p style="text-align:justify"><strong>Lessons will be taught both in Dutch and English only</strong><br/>
+ </p>
+
+<p style="text-align:justify">Depending on your age, there will be different groups:</p>
+
+<ul>
+    <li style="text-align:justify">5-7 will be <i>Hatchlings</i></li>
+    <li style="text-align:justify">8-12 will be <i>Turtles</i></li>
+</ul>
+
+<p style="text-align:justify">Learn more about themes like Outdoors, Water, Cultural Heritage, Survival, Environment, and many more. At the beginning of this Ranger year, you can buy the <strong>Blue Bay Rangers handbook</strong>, which contains all the lessons for the entire school year. Price: 50 NAF<br/>
+ </p>
+
+<p style="text-align:justify">The focus will be on the water, underwater life, and the environment combined with snorkeling and diving (depending on your age). Are you ready to be our next water generation and advocate for the ocean? Every other week you will do a dive for sure in confined water. No need to be certified. But if you love it, you can always get your diving certificate on another day.</p>
+
+<h3 style="text-align:justify">Costs per theme: 125 NAF</h3>
+</div>
+<div class="cms-gallery-slideshow-wrapper container">
+    <h2 class="cms-gallery-slideshow-title block-title">
+        
+    </h2>
+  <script>
+$(function(){
+  $('.bxslider3').bxSlider({
+    mode: 'fade',
+    pager:false,
+    captions: true,
+    slideWidth: 600
+  });
+});
+  </script>
+<div class="bxslider3">
+  <div><img src="/bluebaydive_theme/static/src/img/boy.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/girl.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/kids.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/boy2.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/kids2.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/kids3.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/kids4.jpg" /></div>
+  <div><img src="/bluebaydive_theme/static/src/img/kids5.jpg" /></div>
+</div>
+
+</div>
+
+<div class="cms-gallery-slideshow-wrapper container">
+    <h2 class="cms-gallery-slideshow-title block-title">
+        
+    </h2>
+
+</div>
+
+<!-- 
+<script type="text/javascript">
+    $(function() {
+        $("a#img_610727989ae58").fancybox();
+    });
+    $("a:has(img)").fancybox();
+</script> -->
+
+    </div><div class="col-2-2 layout-position" data-layout-position-name="First Row Right Column">
+        <div class="container">
+    <a id="img_610727989ae58" href="/bluebaydive_theme/static/src/img/ranger_kids.jpg"  class="cms-element-image" >
+        <img src="/bluebaydive_theme/static/src/img/ranger_kids.jpg" />
+    </a>
+</div>
+
+<!-- 
+<script type="text/javascript">
+$(function() {
+$("a#img_610727989eb9a").fancybox();
+});
+</script> -->
+<div class="container">
+    <a id="img_610727989eb9a" href="/bluebaydive_theme/static/src/img/4friends.jpg" class="cms-element-image" >
+
+        <img src="/bluebaydive_theme/static/src/img/4friends.jpg" />
+    </a>
+</div>
+
+<div class="cms-text container">
+    <p style="text-align:justify">Upcoming Ranger Meet-Ups are announced on the Facebook page or can be found in the schedule which you can download on this page.</p>
+
+<p style="text-align:justify"> </p>
+</div>
+
+    <div class="cms-document container">
+        <a href="/bluebaydive_theme/static/src/pdf/Blue_Bay_Rangers_Schedule.pdf" target="_blank">
+            <img src="/bluebaydive_theme/static/src/img/document-pdf.png" /></a>
+        <a href="/bluebaydive_theme/static/src/pdf/Blue_Bay_Rangers_Schedule.pdf" target="_blank">Blue Bay Rangers Schedule School-year 2020/2021</a>
+        <span class="filesize">(143.82 KiB)</span>
+    </div>
+
+<div class="cms-text container">
+    <h2><span style="color:#000000">What are the benefits of Being a Blue Bay Ranger</span></h2>
+
+<ul>
+    <li>Your parents have free beach entry during your Rangers meet-up</li>
+    <li>Free beach entry every Saturday for you and family</li>
+    <li>You can get your diving certificate outside the Rangers program with a 25% discount</li>
+    <li>Your parents can get certified with a 25% discount</li>
+    <li>You can bring a friend for a try snorkel/dive lesson with 25%</li>
+</ul>
+
+<p>Upon showing your ranger card you will obtain a discount at these dive centers and retail stores:</p>
+
+<ul>
+    <li>Blue Bay Dive &amp; Watersports</li>
+    <li>Coral Divers</li>
+    <li>Jan Thiel Diving</li>
+    <li>BLVD Diving</li>
+    <li>Groove Diving</li>
+    <li>Quiksilver Zuikertuintje</li>
+    <li>Quiksilver Coral Estate</li>
+    <li>Quiksilver Corendon</li>
+    <li>Dive Division Retail Store</li>
+</ul>
+
+<p><strong>Dive Discounts for you and your parents</strong><br/>
+ </p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+    <tbody>
+        <tr>
+            <td>Rental Dive Gear                                  </td>
+            <td>20%</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><br/>
+<strong>Retail Discounts for you and your parents </strong> (excluding items on sale)<br/>
+ </p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+    <tbody>
+        <tr>
+            <td>BCD, Regulators &amp; Wetsuits</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Snorkel, Mask, Fins &amp; Dive Accessories</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Dive Computers &amp; Action Camera's</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>Clothing &amp; Sunglasses</td>
+            <td>5%</td>
+        </tr>
+    </tbody>
+</table>
+
+<ul>
+</ul>
+
+<p>Sign up in the shop or send us an e-mail &amp; let's have fun!</p>
+</div>
+
+    </div>
+</div>
+<div class="clear"></div>
+<div class="layout-position" data-layout-position-name="Second Row Column">
+    
+</div>
+
+</div>
+  		</div>
+  	</xpath>
+  </template>
+  
+</odoo>

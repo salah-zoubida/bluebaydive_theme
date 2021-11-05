@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="deals_blue_theme" name="deals" inherit_id="bluebaydive_theme.deals">
+  <xpath expr="//div[@id='wrap']" position="replace">
+  		<div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+    		<div class="inner-wrapper">
+    <!-- <section class="s_three_columns pb32 o_colored_level pt40" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgb(255, 255, 255) !important;"> -->
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+           <t t-foreach="product_ids" t-as="product_id">
+            
+  <div class="col-lg-4 product_col_big s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important;">
+                     
+                                <img t-if="product_id.image_1024"
+                                  t-att-src="'/web/image/product.template/%s/image_1024' % product_id.id"
+                                  class="card-img-top"/>
+                                  
+                                <div class="card-body">
+                                   <t t-if="product_id.name">
+                                    <h3 class="card-title-blue normal-teaser-title" t-esc="product_id.name" />
+                                     </t>
+                                    <p class="card-text-span text-justify normal-teaser-description">
+                                        <span t-esc="product_id.description_product" />
+                                        <span t-if="product_id.description_product" class="dotted_flow">...</span>
+                                    </p>
+                                    <p>
+                                      <div class="row">
+                                        <div class="col-4" style="padding-right: 0px;padding-left: 0px;">
+                                          <a t-attf-href="/shop/product/#{ slug(product_id) }" class=" text-uppercase btn button-no-radios btn-primary mb-2 o_default_snippet_text">Book Now</a>
+                                        </div>
+                                        <div class="col-8">
+                                          <div style="font-size : 15px;">
+                                            <b>
+                                              <span style="text-decoration: line-through;" >From</span>
+                                              <span style="text-decoration: line-through;float: right" t-esc="product_id.list_price"  t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" >From</span>
+                                            </b>
+                                            </div>
+                                            <div>
+                                              <b>
+                                                <span >From</span>
+                                                <span style=" float: right;" t-esc="product_id.deal_price"  t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" >From</span>
+                                              </b>
+                                          </div>
+                                           
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+            </t>
+            </div>
+          </div>
+<!--         </section>
+ -->
+
+
+        </div>	
+      </div>
+  	</xpath>
+  </template>
+  
+</odoo>

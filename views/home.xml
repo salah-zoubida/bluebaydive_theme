@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="homepage_tool_theme" name="HomePage" inherit_id="website.homepage">
+  <xpath expr="//div[@id='wrap']" position="inside">
+    <section style="width:100%">
+          <div id="banner-image-bg" ></div>
+      </section>
+            <section class="s_three_columns pb32 o_colored_level pt40" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgb(255, 255, 255) !important;">
+                <div class="container">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important;">
+                                <img class="card-img-top" src="/bluebaydive_theme/static/src/img/2girls_diving.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip466624" data-original-id="407" data-original-src="/bluebaydive_theme/static/src/img/2girls_diving.jpg" data-mimetype="image/jpeg" data-resize-width="600"/>
+                                <div class="card-body">
+                                   
+                                    <h3 class="card-title-blue">Daily discover dives &amp;amp; PADI courses</h3>
+                                    <p class="card-text text-justify">
+                                        <span >Discover the beautiful underwaterworld of Curacao! The Bay Bay house reef is the ideal spot to start. Guided by one of our elite dive instructors.</span>
+                                       
+                                    </p>
+                                    <p>
+                                      <a href="#" class="btn button-no-radios btn-primary mb-2 o_default_snippet_text text-uppercase">Try Diving</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 rounded border" style="border-radius: 0px !important; border-width: 0px !important;">
+                                <img class="card-img-top" src="/bluebaydive_theme/static/src/img/dive_trips.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip220455" data-original-id="408" data-original-src="/bluebaydive_theme/static/src/img/dive_trips.jpg" data-mimetype="image/jpeg" data-resize-width="600"/>
+                                <div class="card-body">
+                                    <h3 class="card-title-blue">&amp;nbsp;Curacao's best dive sites</h3>
+                                    <p class="card-text text-justify">
+                                        <span style="">Explorer our house reefs, easy accessibly from shore. Or hop on our boat and explore the more excluded dive sites on Curacao. Daily guided trips, secure your spot now!
+                                        </span>
+                                    </p>
+                                    <p>
+                                      <a href="#" class="btn button-no-radios btn-primary mb-2 o_default_snippet_text text-uppercase">More Info</a>
+                                    </p>
+                                    <div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important;">
+                                <img class="card-img-top" src="/bluebaydive_theme/static/src/img/boat_trips.jpg" alt="" loading="lazy" data-original-id="409" data-original-src="/web/image/409-0785344b/boat_trips.jpg" data-mimetype="image/jpeg" data-resize-width="600" data-original-title="" title="" aria-describedby="tooltip465079"/>
+                                <div class="card-body">
+                                    <h3 class="card-title-blue">Venture out by boat</h3>
+                                    <p class="card-text text-justify">
+                                        <span style="" >Do you want to see Curaçaos hidden tressures? Book your catamaran cruise! Discover unique site like the Blue Room, Turtle Bay, Tugboat &amp;amp; the Spanish Water.
+                                        </span>
+                                    </p>
+                                    <p>
+                                      <a href="#" class=" text-uppercase btn button-no-radios btn-primary mb-2 o_default_snippet_text">All options </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      <section class="font-size-20 s_text_block pt32 pb32 o_colored_level" data-snippet="s_text_block" data-name="Text">
+        <div class="container s_allow_columns">
+          <p class="o_default_snippet_text">
+           <b> Scuba Diving, Sailing Trips, Snorkel Tours, SUP &amp;amp; Kayaking Rentals</b>, and much more!
+          </p>
+          <p class="o_default_snippet_text ">
+            PADI 5 Star CDC Dive Center Blue Bay Dive &amp;amp; Watersports is THE starting point for the greatest scuba dive and watersports adventures on Curacao! With our house reefs accessible from shore and a boat for snorkel &amp;amp; dive trips, we can arrange anything for you. Our dive center and shop, located right on the beach of Blue Bay, is not only a store with a wide assortment of swimwear, beach items, and snorkel &amp;amp; dive gear, but also the place book a trip to get active on Curacao.
+          </p>
+          <p class="o_default_snippet_text"><b>
+            For more information &amp;amp; bookings, browse through our website &amp;amp; book online, visit our shop or contact us: (+5999) 888 5450 or dive@bluebay-curacao.com
+            Find our most popular trips &amp;amp; activities below!</b>
+          </p>
+        </div>
+
+
+      </section>
+
+      <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="Image - Text">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+              <img src="/bluebaydive_theme/static/src/img/blue_ocean_big_fish.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="93" data-original-src="/bluebaydive_theme/static/src/img/blue_ocean_big_fish.jpg" data-mimetype="image/jpeg"/>
+            </div>
+            <div class="col-lg-6 pt16 pb16 o_colored_level">
+              <h1 class="text-uppercase o_default_snippet_text">
+                        1 Tank Guided Dive Superior Producer by Bus
+                    </h1>
+              <p class="o_default_snippet_text font-size-20 text-justify">
+                    Join us now to dive one of the best wreck dives of the Caribbean!
+                    Dive in for a look at the history of this iconic shipwreck. The Superior Producer sank in September of 1977 outside the busy...</p>
+              
+              <p>
+                <a href="#" class="btn button-no-radios btn-primary mb-2 o_default_snippet_text text-uppercase">Discover more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <section class="s_three_columns pb32 o_colored_level pt40" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgb(255, 255, 255) !important;">
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+           <t t-foreach="website_product_ids" t-as="website_product_id">
+            
+  <div class="col-lg-4 product_col_big s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important;">
+                     
+                                <img t-if="website_product_id.image_1024"
+                                  t-att-src="'/web/image/product.template/%s/image_1024' % website_product_id.id"
+                                  class="card-img-top"/>
+                                  
+                                <div class="card-body">
+                                   <t t-if="website_product_id.name">
+                                    <h3 class="card-title-blue" t-esc="website_product_id.name" />
+                                     </t>
+                                    <p class="card-text text-justify">
+                                        <span t-esc="website_product_id.description_product" />
+                                        <span t-if="website_product_id.description_product" class="dotted_flow">...</span>
+                                    </p>
+                                    <p>
+                                      <a t-attf-href="/shop/product/#{ slug(website_product_id) }" class=" text-uppercase btn button-no-radios btn-primary mb-2 o_default_snippet_text">Book Now</a>
+                                      <b>
+                                        <span>From</span>
+                                        <span style="float: right;display: inline-block;font-weight: 400;color: #212529;text-align: center;vertical-align: middle;user-select: none;background-color: transparent;border: 1px solid transparent;padding: 0.375rem 0.75rem;font-size: 1rem;line-height: 1.5;" t-esc="website_product_id.list_price"  t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" >From</span></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+            </t>
+            </div>
+          </div>
+        </section>
+
+      <section class="" style="padding: 50px 0;" data-snippet="s_color_blocks_2" data-name="Big Boxes">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center ">
+              <div class="cms-element-youtube-video">
+                  <iframe width="346" height="194" src="https://www.youtube.com/embed/_tYle9s9894" title="YouTube video player" frameborder="0" ></iframe>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center ">
+              <div class="cms-element-youtube-video">
+                  <iframe width="346" id="video-frame-YwpwWCjCzuY" src="https://www.youtube.com/embed/YwpwWCjCzuY?rel=0" frameborder="0" allowfullscreen="" height="194"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="" style="padding: 50px 0;" data-snippet="s_color_blocks_2" data-name="Big Boxes">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6  text-center ">
+              <div class="container">
+                  <img src="/bluebaydive_theme/static/src/img/boysandgirl.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="93" data-original-src="/bluebaydive_theme/static/src/img/boysandgirl.jpg" data-mimetype="image/jpeg"/>
+              </div>
+              <div class="cms-text container">
+                <h3 style="text-align:justify">
+                  <a href="https://www.diveshopcuracao.com/en/curacaodiving">Time to Discover Curacao</a>!
+                </h3>
+            <p style="text-align:justify">Find out what Blue Bay Dive &amp;amp; Watersports has to offer for you.</p>
+            <ul>
+              <li style="text-align:justify"><a href="#">Try Diving (PADI Discover Scuba Dive)</a></li>
+              <li style="text-align:justify"><a href="#">Learn to Dive</a> or <a href="#">Continue to Learn (PADI Dive Courses) </a></li>
+              <li style="text-align:justify"><a href="#">Book your dive trip! </a>Do a guided dive from <a href="#">shore</a> and discover our house reef or venture out on our <a href="#">boat </a>and explorer <a href="#">Curacao's best dive sites!</a></li>
+              <li style="text-align:justify"><a href="#">Explore the island &amp;amp; boot a catamaran boat trip</a></li>
+              <li style="text-align:justify"><a href="#">Relax on the beach and do some watersports</a><a href="#">!</a> Rent a SUP, Kayak or Snorkel set.</li>
+            </ul>
+            </div>
+            <div class="container">
+                  <img src="/bluebaydive_theme/static/src/img/approved.jpg" class="img img-fluid mx-auto" alt="" loading="lazy" data-original-id="93" data-original-src="/bluebaydive_theme/static/src/img/approved.jpg" data-mimetype="image/jpeg"/>
+              </div>
+            </div>
+            <div class="col-lg-6  text-center ">
+             <iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertydetail?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" frameborder="0" width="100%" style="height: 55em"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+  </xpath>
+</template>
+
+</odoo>

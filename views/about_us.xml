@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="about_us_blue_theme" name="About Us" inherit_id="bluebaydive_theme.aboutus">
+  <xpath expr="//div[@id='wrap']" position="replace">
+  		<div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+  			<div class="inner-wrapper">
+    <div class="layout-position row" data-layout-position-name="Content Area">
+    <div class="cms-text container">
+    <p>Get to know Blue Bay Dive &amp;amp; Watersports on Curacao! Who are we and what do we stand for.</p>
+</div>
+
+<div class="container list-container clearfix">
+    <div class="items-list clearfix row">
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="normal-teaser">
+        <a href="/divecenter">
+
+            
+            <div class="normal-teaser-image">
+                <img src="/bluebaydive_theme/static/src/img/guys_chilling.jpg" />
+            </div>
+            
+
+            <div class="normal-teaser-text">
+                <div class="normal-teaser-title">
+                    <h3>Meet the Blue Bay Dive &amp;amp; Watersports Team!</h3>
+                    
+                </div>
+                <div class="normal-teaser-description">
+                    Get to know our multi-lingual and highly trained staff.
+                </div>
+                <div class="normal-teaser-book">
+                    
+                    <div class="half from">
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="normal-teaser">
+        <a href="/partners">
+
+            
+            <div class="normal-teaser-image">
+                <img src="/bluebaydive_theme/static/src/img/partner_logos.jpg" />
+            </div>
+            
+
+            <div class="normal-teaser-text">
+                <div class="normal-teaser-title">
+                    <h3>Partners Network of Blue Bay Dive &amp;amp; Watersports</h3>
+                    
+                </div>
+                <div class="normal-teaser-description">
+                    Meet our partners who ensure our high quality standards &amp;amp; the best service.
+                </div>
+                <div class="normal-teaser-book">
+                    
+                    <div class="half from">
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="normal-teaser">
+        <a href="/awards">
+
+            
+            <div class="normal-teaser-image">
+                <img src="/bluebaydive_theme/static/src/img/award_logos.jpg" />
+            </div>
+            
+
+            <div class="normal-teaser-text">
+                <div class="normal-teaser-title">
+                    <h3>Awards &amp;amp; Quality Marks</h3>
+                    
+                </div>
+                <div class="normal-teaser-description">
+                    Check out the different Quality Marks &amp;amp; Awards that we received!
+                </div>
+                <div class="normal-teaser-book">
+                    
+                    <div class="half from">
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="normal-teaser">
+        <a href="/divesitescuracao">
+
+            
+            <div class="normal-teaser-image">
+                <img src="/bluebaydive_theme/static/src/img/checkout_2_fishs.jpg" />
+            </div>
+            
+
+            <div class="normal-teaser-text">
+                <div class="normal-teaser-title">
+                    <h3>Check out Curacao's Dive Sites</h3>
+                    
+                </div>
+                <div class="normal-teaser-description">
+                    Find our more about the best dive sites from shore and boat.
+                </div>
+                <div class="normal-teaser-book">
+                    
+                    <div class="half from">
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="normal-teaser">
+        <a href="/aboutcuracao">
+
+            
+            <div class="normal-teaser-image">
+                <img src="/bluebaydive_theme/static/src/img/our_island.jpg" />
+            </div>
+            
+
+            <div class="normal-teaser-text">
+                <div class="normal-teaser-title">
+                    <h3>Get to know our beautiful island</h3>
+                    
+                </div>
+                <div class="normal-teaser-description">
+                    Find out about our location, the weather and dive conditions on Curacao.
+                </div>
+                <div class="normal-teaser-book">
+                    
+                    <div class="half from">
+                        
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+    </div>
+</div>
+<div class="clear"></div>
+
+
+</div>
+</div>
+
+  		</div>
+  	</xpath>
+  </template>
+  
+</odoo>

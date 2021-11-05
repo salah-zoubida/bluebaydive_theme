@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="partners_blue_theme" name="Partners" inherit_id="bluebaydive_theme.partners">
+  <xpath expr="//div[@id='wrap']" position="replace">
+    <div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+     
+<div class="inner-wrapper">
+    <div class="layout-position row" data-layout-position-name="Content Area">
+    <div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a13eaa66" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/blue_dive_division.jpg" />
+    </a>
+</div>
+
+
+<h3><a href="http://divedivision.com/" target="_blank">DIVE DIVISION NETWORK MEMBER</a></h3>
+
+<p>Dive Division is the Caribbean Dive Network what ensures quality, safety, and training for dive &amp;amp; watersports centers. With an island-wide coverage on Curacao, customers will experience the same service at all members of the Dive Division Network. Great personal service, well-trained employees &amp;amp; high certified dive professionals, key locations on the island, fully integrated online booking &amp;amp; payment system, and interchangeable services are key values for Dive Division partners.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a13f220b" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/ulti_day.jpg" />
+    </a>
+</div>
+
+
+<h3>The Ultimate Day Member</h3>
+
+<p style="text-align:justify">More information about The Ultimate Day will follow soon.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a14048a5" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/project_awar.jpg" />
+    </a>
+</div>
+
+
+<h3 style="text-align:justify"><a href="https://www.projectaware.org/" target="_blank">Project A.W.A.R.E.: Adopt A Dive Site Member</a></h3>
+
+<p style="text-align:justify">Adopt A Dive Site is a unique and powerful program to involve dive centers, resorts and leaders around the world in ongoing, local protection and monitoring of our favorite underwater playgrounds. It is an opportunity for outstanding PADI Pros and Dive Against Debris leaders to take ownership of their dive sites. Blue Bay Dive is an active dive center who strives for a clean ocean. Every month we organize a Dive Against Debris Clean Up dive where dive professionals and volunteers help to keep our ocean clean. Find out on <a href="https://www.facebook.com/curacaodiving/events/">our Facebook</a> how you can help!</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a140abfb" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/blue_dive_division.jpg" />
+    </a>
+</div>
+
+
+<h3><a href="http://divedivision.com/media-productions-curacao/" target="_blank">Dive Division Media Productions</a></h3>
+
+<p style="text-align:justify">Dive Division Media is a professional media productions team specializing in underwater videography and photography. We offer personally customized, professional imaging of your Caribbean experience. You can enjoy your diving, snorkeling or sailing adventures with the option of having your memories captured forever, professionally. Dive Division Media Productions offers photo and video courses for all skill levels, ranging from beginner to professional. Enjoy an individually customized course to suit your skills and desires.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a1410e0b" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/tud_logos.jpg" />
+    </a>
+</div>
+
+
+<h3 style="text-align:justify">TUD Retail Group</h3>
+
+<p style="text-align:justify">TUD Retail group guarantees premium quality of retail products at Blue Bay Dive &amp;amp; Watersports. The watersports clothing will have an exclusive and unique Quiksilver &amp;amp; Roxy Collection. Quiksilver is It the best specialist for rash guards, towels &amp;amp; beach- and swimwear for men, women, and children. Dive &amp;amp; snorkel gear will be from premium brands like Tusa, Suunto, Ocean Reef, Aqualung &amp;amp; Waterproof. Also, the newest action cameras of GoPro are offered at our shop.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a141768b" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/bluec_logo.jpg" />
+    </a>
+</div>
+
+
+<h3 style="text-align:justify"><a href="http://www.bluecwatersports.com/en" target="_blank">Blue C Watersports</a></h3>
+
+<p style="text-align:justify">Blue C Watersports is the no. 1 boat operator of Curacao. Blue Bay Dive &amp;amp; Watersports joins the 60 ft. luxury catamaran on the full day trips to the West Coast and East Coast. Here you will have the opportunity to dive at the famous sites Mushroom Forest &amp;amp; Blue Room (West Trip) and Tugboat (East Trip) while the rest of the day you can enjoy a beautiful sail with your family and friends. With excellent service, the Blue C will create a pleasant and relaxing environment for an unforgettable experience.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a141e32f" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/britannic_club.jpg" />
+    </a>
+</div>
+
+
+<h3><a href="http://www.britclub.net/" target="_blank">Britannic Club Supporter</a></h3>
+
+<p style="text-align:justify">Established in 1951, the Britannic Club was initially a club for the wives of British ex-patriots posted in Curaçao. Over the years, the club has expanded to include members from a variety of countries. Members meet every month to swap news and chat with others and to raise funds for local Curaçao charities. Blue Bay Dive &amp;amp; Watersports supports this great initiative.</p>
+
+<p></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61045a1423291" >
+        <img style="
+    width: 100%;
+" src="/bluebaydive_theme/static/src/img/sea_turtle.jpg" />
+    </a>
+</div>
+
+
+<h3><a href="https://seaturtleconservationcuracao.org/" target="_blank">Sea Turtle Conservation Supporter</a></h3>
+
+<p style="text-align:justify">The 3 fundamental pillars of STCC are research, conservation, and education. These pillars essential to guarantee effective protection of sea turtles and their habitat. It all starts with research, because we need to learn how sea turtles are really doing on our island and if they need our protection to begin with. One of the goals that STCC has set itself, is to reach and make aware the largest possible group of people. Only when everybody comes together, we can change the current worrying situation in the ocean. Blue Bay Dive &amp;amp; Watersports fully supports the great work STTC is doing.</p>
+
+<p></p>
+</div>
+
+<div class="clear"></div>
+
+</div>
+</div>
+
+    </div>
+   </xpath>
+  </template>
+  
+</odoo>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="blueseakidscamp_blue_theme" name="blueseakidscamp" inherit_id="bluebaydive_theme.blueseakidscamp">
+  <xpath expr="//div[@id='wrap']" position="replace">
+        <div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+            <div class="inner-wrapper">
+                <div class="layout-position row" data-layout-position-name="Content Area">
+                
+<div class="activity-details-page container">
+    <div class="activity-details-head">
+        <div class="inner-wrapper">
+            <h1>
+                Blue Sea Kids Summer Camp
+            </h1>
+            <div class="clearfix">
+                <div class="activity-details-head-content">
+                <div class="bx-wrapper" style="max-width: 100%; background-color:#f8f7f7;">
+                    <div class="bx-viewport" aria-live="polite" >
+                        <img src="/bluebaydive_theme/static/src/img/fun_kids_pack.jpg" />
+                        
+
+                    </div>
+                </div>
+
+                    <div class="description">
+                        <h3 style="text-align:justify"><span style="color:#000000"><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1/16/1f4a6.png" style="height:16px; width:16px"/> The Ultimate Experience for Kids during this Summer! <img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1/16/1f4a6.png" style="height:16px; width:16px"/></span></h3>
+
+<div style="text-align:justify"><span style="color:#000000">4 Days of Happiness, Fun, and Exiting activities!<br/>
+This camp is for all kids between 5 &amp; 16 years, where they learn about, grow even more fond of and enjoy the ocean! During this exciting program, all kinds of different water activities will be held.<br/>
+Every day has a different program, but it is all about the beach, ocean, and fun.<br/>
+Besides their PADI age-specific course or the snorkeling for the Starfishes, what else in on the program:</span></div>
+
+<ul>
+    <li style="text-align:justify"><span style="color:#000000">On the 3rd day we will keep our feet dry for a bit, while being out on the water. We will go <b>cruising on the catamaran</b> along the east coast of the Island.</span></li>
+    <li style="text-align:justify"><span style="color:#000000">You can't have a summer camp on the beach and not <b>built sandcastles</b>. So that is definitely in!</span></li>
+    <li style="text-align:justify"><span style="color:#000000">We will teach more about all the <b>different kind of fish</b> out there in the ocean, and take the fish slates in the water to show them, <b>while snorkeling</b>.</span></li>
+    <li style="text-align:justify"><span style="color:#000000">After some<b> Stand-Up Paddling</b> and <b>Kayaking</b> lessons, we can SUP and Kayak away!</span></li>
+    <li style="text-align:justify"><span style="color:#000000">There is also time to relax and focus on our self, during the <b>Yoga lesson</b></span></li>
+    <li style="text-align:justify"><span style="color:#000000">And all the extra energy can get out during water fights.</span></li>
+</ul>
+
+<div style="text-align:justify"><span style="color:#000000">Besides all the fun, we also touch some serious subjects. They will learn about <b>Project AWARE</b>. How can you protect the ocean and all the creatures living in it? In order to create heroes, you have to be a hero. Because of this, awareness is key in this camp. Learn more about <b>protecting turtles</b>, saving the sharks, what are invasive species and what do we do with them. Let's not forget about how to <b>clean-up</b> the beaches and the debris in the ocean. And of course what we can do to contribute.<br/>
+Snorkeling, Kayaking, Stand-Up Paddle Boarding, Building Sand Castles, and even learn or continue <b>Scuba Diving</b>!<br/>
+<br/>
+Obviously we are outside a lot, so all the kids get their own <b>Quiksilver / Roxy Rashguard</b>, so all you need is (ocean-friendly) sunscreen, a hat, and swimmers.<br/>
+<b>Lunch is included</b> as well. <br/>
+<br/>
+Contact us for the full program and more information.<br/>
+Sign up NOW &amp; become a HERO of the Caribbean Sea!<br/>
+<br/>
+When: 12th - 15th of July<br/>
+Time: 8:30- 17:00<br/>
+Where: Blue Bay Beach, Curacao</span></div>
+                    </div>
+                </div>
+
+
+                <div class="activity-details-head-sidebar desktop tablet">
+                    
+                        
+                    
+
+                    
+                        <section>
+                            <iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertysummary?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 310px" frameborder="0"></iframe>
+                        </section>
+                    
+
+                    
+
+                    <section class="social-buttons">
+                        <h4 class="caption">
+                            Share this activity
+                        </h4>
+                        <div class="sidebar-box-content">
+                            
+                            
+
+
+    
+
+
+<ul class="wide-social-links clearfix">
+    <li>
+        <a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.diveshopcuracao.com/en/activity/297023/blue-sea-kids-summer-camp&amp;title=Check this out!">
+            <i></i>
+        </a>
+    </li>
+    <li>
+        <a class="twitter" target="_blank" href="http://twitter.com/share?text=Check this out!&amp;url=https://www.diveshopcuracao.com/en/activity/297023/blue-sea-kids-summer-camp">
+            <i></i>
+        </a>
+    </li>
+</ul>
+
+                            
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="activity-details-description">
+        <div class="inner-wrapper">
+            <div class="tabbed">
+                <ul class="tabs clearfix">
+                    
+                    <li class="tablink" onclick="openPage('itinirary_tab', this)" id="defaultOpen">
+                        <a href="#itinerary">Itinerary</a>
+                    </li>
+                    
+                    
+                    <li class="tablink" onclick="openPage('iframe_tab', this)" >
+                        <a href="#reviews">Reviews</a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content">
+                    
+                    <div id="itinirary_tab" class="tabcontent tab clearfix">
+                        
+                        <div class="col-right">
+                            
+                            <div class="highlights">
+                                <p style="text-align:justify">We offer 4 programs depending on age:<br/>
+<br/>
+<strong><img alt="⭐" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tb4/1/16/2b50.png" style="height:16px; width:16px"/> Starfish (5-7 years) </strong>US$300.-<br/>
+<strong>Special Activity: Snorkel Lessons</strong><br/>
+<br/>
+<span style="color:black">Learn while playing to try on and adjust your snorkel mask, how to defog your mask &amp; how to swim with fins. We have a lot of snorkel techniques to master, from making a duck dive to swim underwater and how to clear your snorkel.</span><br/>
+<br/>
+<strong><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t21/1/16/1f41f.png" style="height:16px; width:16px"/> Seal (8-9 years) </strong>US$500.-<br/>
+<strong>Special Activity: PADI Seal Team Course</strong><br/>
+<span style="background-color:white"><span style="color:black">Join us for 5 aqua missions in which you will master the basics of diving. Learn how to swim underwater with scuba gear, how to equalize, and discover the underwater world up to 4 meters. We practice skills and discover all the beautiful aquatic life. Become a real PADI Seal Team Member!</span></span><br/>
+<br/>
+<strong><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t3d/1/16/1f42c.png" style="height:16px; width:16px"/> Dolphin (10-16 years) </strong>US$500.-<br/>
+<strong>Special Activity: PADI Open Water Diver Course</strong><br/>
+<br/>
+<span style="color:black">Become a certified diver and explore the underwater world to depths of 12 meters (or more depending on age). You learn in the confined are all the skills you need to become an independent diver. After that you will make 4 beautiful dives, repeating a few of those skills but mostly look around to the vast variety of aquatic life. We can promise you, it will never be boring. For this course you will receive E-Learning, to study prior to the camp.</span><br/>
+<br/>
+<strong><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t91/1/16/1f988.png" style="height:16px; width:16px"/> Shark (10-16 years) </strong>US$500.-<br/>
+<strong>Special Activity: PADI Advanced OW Diver Course</strong><br/>
+<br/>
+<span style="background-color:white"><span style="color:black">Already know how to scuba dive? No worries, we will help you reach your next goal! Become an Adventure diver or Advanced Open Water Diver during this amazing camp. In 5 dives you will get a taste from different cool specialties that are out there. Learn to control your buoyancy even more, during PPB.  Know your way underwater and learn more about the compass. How do we clean up the ocean, you'll learn more during the Dive Against Debris dive. And  if you are 12 years old; try the future of diving with the Full Face IDM mask and go a little bit deeper than you have been before, during your deep dive.</span></span><br/>
+ </p>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="tab tabcontent" id="iframe_tab">
+                        <div class="entries">
+                            <iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertydetail?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 85em" frameborder="0"></iframe>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+</xpath>
+
+</template>
+
+</odoo>
+
+<!-- 
+
+<div class="inner-wrapper">
+    <div class="layout-position row" data-layout-position-name="Content Area">
+    
+
+
+
+
+
+
+
+
+
+<div class="activity-details-page container">
+    <div class="activity-details-head">
+        <div class="inner-wrapper">
+            <h1>
+                Blue Sea Kids Summer Camp
+            </h1>
+            <div class="clearfix">
+                <div class="activity-details-head-content">
+                    
+                    
+                    <div class="bx-wrapper" style="max-width: 100%;">
+                        <div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 352px;"><ul class="bxslider " style="width: 1215%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                        
+                        
+                        <li style="float: left; list-style: none; position: relative; width: 528px;" aria-hidden="false">
+                            
+                            <a class="fancybox" rel="gallery" href="https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_headers/297023/2000x2000-0-70-441d974bcbf087a574fb9a2098032747.jpg">
+                                <img src="https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_headers/297023/900x600-1-50-441d974bcbf087a574fb9a2098032747.jpg" alt="Blue Bay Dive &amp; Watersports Blue Sea Kids Summer Camp">
+                            </a>
+                            
+                        </li>
+                        
+                        
+                        
+                    </ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next disabled" href="">Next</a></div></div></div>
+
+                    
+                    <script>
+                        $(function(){
+                            var $gallery = $('.bxslider'),
+                                $youtubeVideo = $('#youtube-video');
+
+                            if ($gallery.children().length) {
+                                $gallery.bxSlider({
+                                    minSlides: 1,
+                                    maxSlides: 1,
+                                    pager: false,
+                                    infiniteLoop: false,
+                                    hideControlOnEnd: true
+                                });
+                            } else if($youtubeVideo.length === 1) {
+                                $youtubeVideo.show();
+                                $youtubeVideo.find('.close').hide();
+                            }
+
+                            $(".fancybox-video").fancybox({
+                                maxWidth: 600,
+                                maxHeight: 420,
+                                width: '70%',
+                                height: '80%',
+                                fitToView: false,
+                                autoSize: false,
+                                closeClick: false,
+                                openEffect: 'none',
+                                closeEffect: 'none',
+                                type: 'iframe'
+                            });
+                            $(".fancybox").fancybox();
+                            $('.youtube-video').on('click', function(e){
+                                e.preventDefault();
+                                $('#youtube-video embed').attr('width', $('.bx-wrapper').width()).attr('height', $('.bx-wrapper').height())
+                                $('.bx-wrapper').hide();
+                                $('#youtube-video').show();
+                                $('.activity-title').addClass('video').one('click', function(){
+                                    $('.bx-wrapper').show();
+                                    $('#youtube-video').hide();
+                                    $(this).removeClass('video');
+                                });
+                            });
+                            $('#youtube-video .close').on('click',function(){
+                                $('.bx-wrapper').show();
+                                $('#youtube-video').hide();
+                            });
+                        });
+                    </script>
+
+                    <div class="description">
+                        <h3 style="text-align:justify"><span style="color:#000000"><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1/16/1f4a6.png" style="height:16px; width:16px"> The Ultimate Experience for Kids during this Summer! <img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tc1/1/16/1f4a6.png" style="height:16px; width:16px"></span></h3>
+
+<div style="text-align:justify"><span style="color:#000000">4 Days of Happiness, Fun, and Exiting activities!<br/>
+This camp is for all kids between 5 &amp; 16 years, where they learn about, grow even more fond of and enjoy the ocean! During this exciting program, all kinds of different water activities will be held.<br/>
+Every day has a different program, but it is all about the beach, ocean, and fun.<br/>
+Besides their PADI age-specific course or the snorkeling for the Starfishes, what else in on the program:</span></div>
+
+<ul>
+    <li style="text-align:justify"><span style="color:#000000">On the 3rd day we will keep our feet dry for a bit, while being out on the water. We will go <b>cruising on the catamaran</b> along the east coast of the Island.</span></li>
+    <li style="text-align:justify"><span style="color:#000000">You can't have a summer camp on the beach and not <b>built sandcastles</b>. So that is definitely in!</span></li>
+    <li style="text-align:justify"><span style="color:#000000">We will teach more about all the <b>different kind of fish</b> out there in the ocean, and take the fish slates in the water to show them, <b>while snorkeling</b>.</span></li>
+    <li style="text-align:justify"><span style="color:#000000">After some<b> Stand-Up Paddling</b> and <b>Kayaking</b> lessons, we can SUP and Kayak away!</span></li>
+    <li style="text-align:justify"><span style="color:#000000">There is also time to relax and focus on our self, during the <b>Yoga lesson</b></span></li>
+    <li style="text-align:justify"><span style="color:#000000">And all the extra energy can get out during water fights.</span></li>
+</ul>
+
+<div style="text-align:justify"><span style="color:#000000">Besides all the fun, we also touch some serious subjects. They will learn about <b>Project AWARE</b>. How can you protect the ocean and all the creatures living in it? In order to create heroes, you have to be a hero. Because of this, awareness is key in this camp. Learn more about <b>protecting turtles</b>, saving the sharks, what are invasive species and what do we do with them. Let's not forget about how to <b>clean-up</b> the beaches and the debris in the ocean. And of course what we can do to contribute.<br/>
+Snorkeling, Kayaking, Stand-Up Paddle Boarding, Building Sand Castles, and even learn or continue <b>Scuba Diving</b>!<br/>
+<br/>
+Obviously we are outside a lot, so all the kids get their own <b>Quiksilver / Roxy Rashguard</b>, so all you need is (ocean-friendly) sunscreen, a hat, and swimmers.<br/>
+<b>Lunch is included</b> as well. <br/>
+<br/>
+Contact us for the full program and more information.<br/>
+Sign up NOW &amp; become a HERO of the Caribbean Sea!<br/>
+<br/>
+When: 12th - 15th of July<br/>
+Time: 8:30- 17:00<br/>
+Where: Blue Bay Beach, Curacao</span></div>
+                    </div>
+
+                    
+
+                    
+                </div>
+                <div class="activity-details-head-sidebar desktop tablet">
+                    
+                        
+                    
+
+                    
+                        <section>
+                            <iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertysummary?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 310px" frameborder="0"></iframe>
+                        </section>
+                    
+
+                    
+
+                    <section class="social-buttons">
+                        <h4 class="caption">
+                            Share this activity
+                        </h4>
+                        <div class="sidebar-box-content">
+                            
+                            
+
+
+    
+
+
+<ul class="wide-social-links clearfix">
+    <li>
+        <a class="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.diveshopcuracao.com/en/activity/297023/blue-sea-kids-summer-camp&amp;title=Check this out!">
+            <i></i>
+        </a>
+    </li>
+    <li>
+        <a class="twitter" target="_blank" href="http://twitter.com/share?text=Check this out!&amp;url=https://www.diveshopcuracao.com/en/activity/297023/blue-sea-kids-summer-camp">
+            <i></i>
+        </a>
+    </li>
+</ul>
+
+                            
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="activity-details-description">
+        <div class="inner-wrapper">
+            <div class="tabbed">
+                <ul class="tabs clearfix">
+                    
+                    <li class="active">
+                        <a href="#itinerary">Itinerary</a>
+                    </li>
+                    
+                    
+                    <li class="">
+                        <a href="#reviews">Reviews</a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content">
+                    
+                    <div id="itinerary" class="tab clearfix active">
+                        
+                        <div class="col-right">
+                            
+                            <div class="highlights">
+                                <p style="text-align:justify">We offer 4 programs depending on age:<br/>
+<br/>
+<b><img alt="⭐" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tb4/1/16/2b50.png" style="height:16px; width:16px"> Starfish (5-7 years) </b>US$300.-<br/>
+<b>Special Activity: Snorkel Lessons</b><br/>
+<br/>
+<span style="color:black">Learn while playing to try on and adjust your snorkel mask, how to defog your mask &amp; how to swim with fins. We have a lot of snorkel techniques to master, from making a duck dive to swim underwater and how to clear your snorkel.</span><br/>
+<br/>
+<b><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t21/1/16/1f41f.png" style="height:16px; width:16px"> Seal (8-9 years) </b>US$500.-<br/>
+<b>Special Activity: PADI Seal Team Course</b><br/>
+<span style="background-color:white"><span style="color:black">Join us for 5 aqua missions in which you will master the basics of diving. Learn how to swim underwater with scuba gear, how to equalize, and discover the underwater world up to 4 meters. We practice skills and discover all the beautiful aquatic life. Become a real PADI Seal Team Member!</span></span><br/>
+<br/>
+<b><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t3d/1/16/1f42c.png" style="height:16px; width:16px"> Dolphin (10-16 years) </b>US$500.-<br/>
+<b>Special Activity: PADI Open Water Diver Course</b><br/>
+<br/>
+<span style="color:black">Become a certified diver and explore the underwater world to depths of 12 meters (or more depending on age). You learn in the confined are all the skills you need to become an independent diver. After that you will make 4 beautiful dives, repeating a few of those skills but mostly look around to the vast variety of aquatic life. We can promise you, it will never be boring. For this course you will receive E-Learning, to study prior to the camp.</span><br/>
+<br/>
+<b><img alt="????" src="https://static.xx.fbcdn.net/images/emoji.php/v9/t91/1/16/1f988.png" style="height:16px; width:16px"> Shark (10-16 years) </b>US$500.-<br/>
+<b>Special Activity: PADI Advanced OW Diver Course</b><br/>
+<br/>
+<span style="background-color:white"><span style="color:black">Already know how to scuba dive? No worries, we will help you reach your next goal! Become an Adventure diver or Advanced Open Water Diver during this amazing camp. In 5 dives you will get a taste from different cool specialties that are out there. Learn to control your buoyancy even more, during PPB.  Know your way underwater and learn more about the compass. How do we clean up the ocean, you'll learn more during the Dive Against Debris dive. And  if you are 12 years old; try the future of diving with the Full Face IDM mask and go a little bit deeper than you have been before, during your deep dive.</span></span><br/>
+ </p>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="tab" id="reviews">
+                        <div class="entries">
+                            <iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertydetail?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 85em" frameborder="0"></iframe>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+</div> -->

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	     <template id="portal_frontend_user">
+	           <span class="user_img" t-if="not user_id._is_public()"><img style="height:25px; width:25px;" t-attf-src="/web/image/res.users/#{user_id.id}/image_128" class="img img-fluid mx-auto rounded-circle" t-att-alt="user_id.name"/></span>
+	   	</template>
+
+	   	 <template id="my_address_link" name="Link to frontend portal Address">
+	         <a href="/my-address" role="menuitem" class="dropdown-item">My Address</a>
+	    </template>
+
+<template id="bluebaydive_theme_header" inherit_id="website.layout" name="Header blue bay dive" active="True">
+		<xpath expr="//header//nav" position="replace">
+			<div id="wrapper" class="container-fluid">
+				<div id="contact" class="container-fluid">
+					<div id="contact-social" class="footer-media">
+						<a class="link mr-3" t-att-href="website.social_facebook"
+													t-if="website.social_facebook" target="_blank">
+							<img src="https://d3rr2gvhjw0wwy.cloudfront.net/cache/themes/42985/panorama/img/social/facebook-small.png?ts=1621549710"/>
+						</a>
+						
+						<a class="link mr-3" t-att-href="website.social_github"
+							t-if="website.social_github" target="_blank">
+							<img src="https://d3rr2gvhjw0wwy.cloudfront.net/cache/themes/42985/panorama/img/social/tripadvisor-small.png?ts=1621549710"/>
+						</a>
+						<a class="link mr-3" t-att-href="website.social_instagram"
+							t-if="website.social_instagram" target="_blank">
+							<img src="https://d3rr2gvhjw0wwy.cloudfront.net/cache/themes/42985/panorama/img/social/photo-social-small.png?ts=1621549710" />
+						</a>
+						<a class="link mr-3" t-att-href="website.social_youtube"
+							t-if="website.social_youtube" target="_blank">
+							<img src="https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/42985/file-manager/youtubeicon.jpg" width="28px"/>
+						</a>
+						<a class="link mr-3" t-att-href="website.social_twitter"
+							t-if="website.social_twitter" target="_blank">
+							<i class="fa fa-twitter" />
+						</a>
+						<a class="link mr-3" t-att-href="website.social_linkedin"
+							t-if="website.social_linkedin" target="_blank">
+							<i class="fa fa-linkedin" />
+						</a>
+					</div>
+					<div id="contact-direct">
+						<div t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["phone"]}'/>
+				        <span style="font-size: 15px;padding: 0 5px;"> | </span>
+						<div t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["email"]}'/>
+					</div>
+				</div>
+			</div>
+			<nav data-name="Navbar" id="tools_header1" t-attf-class="tools_header_one sticky">
+				
+			<div id="header_menu" class="fixed-div-menu">
+
+				<div id="nav_menu" class="desktop container-fluid">
+					<div class="service top clearfix">
+						<ul class="service-menu">
+							<li class="account">
+								<div class="header-myaccount d-flex align-items-center ml-auto">
+		                			<a href="#" class=" acc-dropdown py-0" data-toggle="dropdown">
+										<span t-ignore="true" t-if="not user_id._is_public()">
+		                					<t t-call="bluebaydive_theme.portal_frontend_user"/>
+		                				</span>
+		                				<span groups="base.group_public">
+											<span class="icon icon-User text-white align-middle"></span>
+										</span>
+									</a>
+									<div class="dropdown-menu js_usermenu" role="menu">
+										<div class="main-content text-center" t-ignore="true" t-if="not user_id._is_public()">
+											<div class="text-center font-weight-bold">
+												<span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name" />
+											</div>
+											<a t-attf-href="/my/home" role="menuitem" class="dropdown-item my-acc text-center">My Account</a>
+											<t t-call="bluebaydive_theme.my_address_link"/>
+											<a id="o_logout" class="dropdown-item text-center"
+												t-attf-href="/web/session/logout?redirect=/"
+												role="menuitem">Logout</a>
+										</div>
+										<div groups="base.group_public" class="text-center">
+											<a class="dropdown-item" t-attf-href="/web/login">
+												<span>Sign in</span>
+											</a>
+											<a class="dropdown-item" t-attf-href="/web/signup">
+												<span>Register</span>
+											</a>
+										</div>
+									</div>
+		                		</div>
+							</li>
+							<li>
+								<div class="language-selector">
+									<ul class="menu-language js_language_selector mb0 list-inline text-lg-center" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+					                    <li class="d-inline-block">
+								            <div class="dropdown">
+								                <button class="btn btn-sm btn-link " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							                     	<span style="color:white;font-size: 15px;" class="lang_local_code text-uppercase" t-esc="list(filter(lambda lg : lg[0] == lang, languages))[0][1]"/>
+								                    <span class="caret ml4"/>
+								                </button>
+								                <div class="dropdown-menu" role="menu">
+								                    <t t-foreach="languages" t-as="lg">
+								                        <a t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])"
+								                           class="dropdown-item js_change_lang"
+								                           t-att-data-url_code="lg[1]">
+								                            <t t-esc="lg[2].split('/').pop()"/>
+								                        </a>
+								                    </t>
+								                </div>
+								            </div>
+								        </li>
+								    </ul>
+								</div>
+							</li>
+							<li>
+								<t t-call="website_sale.header_cart_link">
+							                <t t-set="_icon" t-value="True"/>
+							                <t t-set="_icon_color" t-value="'text-light'"/>
+							                <!-- <t t-set="_item_class" t-value="'nav-item'"/>
+							                <t t-set="_link_class" t-value="'nav-link'"/> -->
+							            </t>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix" >
+						<a href="/" class="navbar-brand logo">
+				            <span class="logo_img" t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name" />
+				        </a>
+									<ul class="main-menu clearfix">
+			            
+			    <li>
+			        <a href="/en/">
+			            Blue Bay Overview
+			            
+			        </a>
+			        
+			    </li>
+
+			    <li>
+			        <a >
+			            Curacao Diving
+			            
+			        </a>
+			        <ul class="submenu">
+			        	<t t-set="curacao_diving" t-value="website.get_cura_diving_categories() if website else None"/>
+		                <t t-if="curacao_diving">
+		                    <t t-foreach="curacao_diving['curacao_diving']" t-as="categ">
+		                    		<li>
+		                          	<a  t-att-href="'/shop/category/%s' % (categ.id)">
+							            	<t t-esc="categ.name"/>
+						            </a>
+						        </li>
+
+		                    </t>
+		                </t>
+			        </ul>
+			           
+			        
+			    </li>
+
+			    <li>
+			        <a >
+			            Trips &amp; Tours
+			            
+			        </a>
+			        <ul class="submenu">
+			        	<t t-set="tour_trips" t-value="website.get_tour_trips_categories() if website else None"/>
+		                <t t-if="tour_trips">
+		                    <t t-foreach="tour_trips['tour_trips']" t-as="categ">
+		                    		<li>
+		                          	<a  t-att-href="'/shop/category/%s' % (categ.id)">
+							            	<t t-esc="categ.name"/>
+						            </a>
+						        </li>
+
+		                    </t>
+		                </t>
+			        </ul>
+			        
+			    </li>
+
+			    <li>
+			        <a href="/en/specials">
+			            Specials
+			            
+			        </a>
+			        <ul class="submenu">
+                
+                    <li>
+                        <a href="/bluebayrangers">
+                            Blue Bay Rangers
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/blueseakidscamp">
+                            Blue Sea Kids Camp
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/stay">
+                            Dive &amp; Stay
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/deals">
+                            Package Deals
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/events">
+                            Special Events
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/divedivisionclub">
+                            Dive Division Club
+
+                            
+                        </a>
+                        
+                    </li>
+                
+            </ul>
+			            
+			        
+			    </li>
+
+			    <li>
+			        <a href="/aboutus">
+			            About us
+			            
+			        </a>
+			        <ul class="submenu">
+                
+                    <li>
+                        <a href="/divecenter">
+                            Dive Center &amp; Team
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/partners">
+                            Partner Network
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/awards">
+                            Awards &amp; Quality Marks
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/sustainabilitypledge">
+                            Sustainability Pledge
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/divesitescuracao">
+                            Dive Sites Curacao
+
+                            
+                        </a>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/aboutcuracao">
+                            About Curacao
+
+                            
+                        </a>
+                        
+                    </li>
+                
+            </ul>
+			    </li>
+
+			    <li>
+			        <a href="/contactus">
+			            Contact
+			            
+			        </a>
+			        
+			    </li>
+
+
+			        </ul>
+					</div>
+					
+
+				</div>
+			</div>
+			</nav>
+		</xpath>
+	</template>
+
+</odoo>
+
+<!-- 
+<div class="top-header d-none d-md-block bg-primary">
+					<div class="container">
+						<div class="row" id="contacts">
+							<div class="header-left col-md-4 col-lg-6 d-none d-md-flex">
+								<div class="footer-media">
+               <t t-set="classes" t-translation="off">bg-100 border mx-1 mb-2 rounded-circle d-flex align-items-center justify-content-center text-decoration-none</t> 
+               <a class="link mr-3" t-att-href="website.social_facebook"
+													t-if="website.social_facebook" target="_blank">
+													<i class="fa fa-facebook" />
+												</a>
+												
+												<a class="link mr-3" t-att-href="website.social_twitter"
+													t-if="website.social_twitter" target="_blank">
+													<i class="fa fa-twitter" />
+												</a>
+												<a class="link mr-3" t-att-href="website.social_linkedin"
+													t-if="website.social_linkedin" target="_blank">
+													<i class="fa fa-linkedin" />
+												</a>
+												<a class="link mr-3" t-att-href="website.social_youtube"
+													t-if="website.social_youtube" target="_blank">
+													<i class="fa fa-youtube-play" />
+												</a>
+												<a class="link mr-3" t-att-href="website.social_instagram"
+													t-if="website.social_instagram" target="_blank">
+													<i class="fa fa-instagram"></i>
+												</a>
+												<a class="link mr-3" t-att-href="website.social_github"
+													t-if="website.social_github" target="_blank">
+													<i class="fa fa-github"></i>
+												</a>
+					            </div>
+							</div>
+							
+							<div class="header-right justify-content-end col-md-8 col-lg-6 d-none d-md-flex">
+								<div t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["phone"]}'/>
+				                <span style="font-size: 15px;padding: 0 5px;"> | </span>
+								<div t-field="res_company.partner_id" t-options='{
+				                "widget": "contact",
+				                "fields": ["email"]}'/>
+							</div>
+						</div>
+					</div>
+					<div class="middle-header">
+					<div class="container">
+						<div class="row align-items-center">
+					
+						</div>
+					</div>
+					</div>
+				</div> -->

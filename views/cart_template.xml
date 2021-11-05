@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="cart" inherit_id="website_sale.cart" active="True" customize_show="True" name="cart">
+       <xpath expr="//div[@id='wrap']" position="attributes">
+       	<attribute name="style">margin-top:10%</attribute>
+       </xpath>
+    </template>
+
+</odoo>

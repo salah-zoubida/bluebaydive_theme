@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="awards_blue_theme" name="awards" inherit_id="bluebaydive_theme.awards">
+  <xpath expr="//div[@id='wrap']" position="replace">
+    <div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+    <div class="inner-wrapper">
+    <div class="layout-position row" data-layout-position-name="Content Area">
+    <div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0cdd5c" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/padi_logos.jpg" alt="" title=""/>
+    </a>
+</div>
+
+
+<h3>PADI 5 STAR CDC DIVE CENTER &amp;amp; RESORT</h3>
+
+<p style="text-align:justify">Blue Bay Dive &amp;amp; Watersports, Curacao is the only recognized PADI Five Star CDC Dive Center.The PADI 5 Star Career Development Center (CDC) classification is awarded to PADI Five Star Instructor Development Centers that dedicate their businesses to professional development for dive instructors. These dive shops meet the highest requirements for training PADI Professionals and offer career-oriented programs to prepare scuba diving professionals for employment in the dive industry, as well as offer job placement assistance for program graduates. We are very proud of receiving this status.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0d570d" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/tripad.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+
+<h3>Tripadvisor Excellence Award</h3>
+
+<p style="text-align:justify">Tripadvisor is an international website, where participants can share their judgments of the experience they’ve been through. Blue Bay Dive &amp;amp; Watersports received the Certificate of Excellence of TripAdvisor. This award is only given to the top 10 percent of accommodations, restaurants, attractions, and vacation rental listed on TripAdvisor. Blue Bay Dive &amp;amp; Watersports owns the Certificate of Excellence by maintaining an overall Tripadvisor rating of at least four out of five.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0db0cc" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/green_start.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+
+<h3 style="text-align: justify;">PADI GREEN STAR AWARD</h3>
+
+<p style="text-align:justify">Blue Bay Dive can proudly announce that we received the PADI Green Star Award. The Green Star Award identifies dive businesses that care about the environment and are acting to protect it. We do our best to protect it and demonstrate a dedication to conservation across a wide range of business functions, including our water conservation, energy use, environmentally-friendly transportation practices, use of sustainable materials, conservation leadership and a donation to conservation through Project AWARE.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0e0c55" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/approved_logo.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+
+<h3>Curacao Tourist Board Approved</h3>
+
+<p style="text-align: justify;">Curaçao Tourist Board is a company who wants to deliver a visible, leading and effective contribution towards a vibrant and sustainable Curaçao tourism/hospitality product. Blue Bay Dive &amp;amp; Watersports is an approved company of Curaçao Tourist Board.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0e6958" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/dive_task_force.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+
+
+<h3>DIVE TASK FORCE CURACAO MEMBER</h3>
+
+<p style="text-align:justify">The Curaçao Hospitality and Tourism Association's (CHATA) Dive Task Force is consisting only of approved dive operators, selected for their strong commitment to quality, safety &amp;amp; sustainable tourism. As a proud member, Blue Bay Dive &amp;amp; Watersports works together with several companies and other dive centers to make Curacao a clean and safe diving island.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0ec6c5" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/excelence_award.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>PADI Excellence Awards &amp;amp; Elite Instructor Awards</h3>
+
+<p style="text-align:justify">Professional Association of Diving Instructors (PADI) and Blue Bay Dive are dedicated to sharing their passion for adventure and the love fort he marine world to divers all over the world. Next, to being an official 5 Star IDC Resort, we also received several Certificates of Recognition for Excellence of PADI for our outstanding customer service and professionalism in PADI Instruction. Several dive instructors also received Elite Instructor Awards. Our Course Director received even the Silver Status for his frequent training.</p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61068bc0f0b59" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/sea_excel.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Beneath The Sea Excellence Award</h3>
+
+<p style="text-align:justify">Beneath The Sea displays products like international dive clubs, dive shops, resorts, training institutes, and manufacturing units of scuba diving gears and machinery. The Certificate of Excellence is hereby given in recognition of the contribution by Blue Bay Dive &amp;amp; Watersports (Dive Division).</p>
+</div>
+
+<div class="clear"></div>
+
+</div>
+</div>
+    </div>
+   </xpath>
+  </template>
+  
+</odoo>

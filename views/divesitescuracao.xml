@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="divesitescuracao_blue_theme" name="divesitescuracao" inherit_id="bluebaydive_theme.divesitescuracao">
+  <xpath expr="//div[@id='wrap']" position="replace">
+    <div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+    <div class="inner-wrapper">
+    <div class="columns-row 2-cols container">
+    <div class="col-1-2 layout-position" data-layout-position-name="First Row Left Column">
+        <div class="cms-text container">
+    <h3>Discover Curacao's best shore boat dive sites!</h3>
+
+<p style="text-align:justify">Curaçao is one of the ultimate shore diving islands in the Caribbean. It is a volcanic island which forms a "pillar" in the Southern Caribbean Sea, allowing the divers to access the reef right from the beach. The house reef of Blue Bay “The Wall” and “The Garden”, both easily accessible from shore are known as one of the best shore dives on Curacao. With a shallow bay, the house reef is ideal to start your scuba diving or have training dives.</p>
+
+<p style="text-align:justify">Next, to shore diving, Blue Bay Dive &amp;amp; Watersports also offers boat diving. This way we can go to the more secluded dive sites on the island. Find out more about our favorite dive sites below.</p>
+</div>
+
+    </div><div class="col-2-2 layout-position" data-layout-position-name="First Row Right Column">
+        <div class="container">
+    <a id="img_61069bc574abb" class="cms-element-image" >
+        <img style="width: 100%" src="/bluebaydive_theme/static/src/img/guy_girl_walkin.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+    </div>
+</div>
+<div class="clear"></div>
+<div class="layout-position" data-layout-position-name="Second Row Column">
+    <div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc57c327" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/horse_fish.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Blue Bay The Wall</h3>
+
+<p style="text-align:justify">The Wall is renowned on the island for its one-of-a-kind diving experience. Located on the at Blue Bay Beach, The Wall is a continuance of the cliff, rising from the sea. That cliff’s wall drops down for another 56 meters (180 ft) in the ocean, offering divers a straight wall of pristine coral life dancing by in front of their masks as they glide by. Untouched by the effects of human habitats, The Wall is a true coral and other reef life gem. This dive site is loved by photographers due to her high variety of structures and macro life. Seahorses, frogfishes, juvenile fish and other small creatures are often found. <a href="https://www.diveshopcuracao.com/en/guideddives">- <i>Shore Dive from Blue Bay Beach -</i></a></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc582872" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/green_fish.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Blue Bay The Garden</h3>
+
+<p style="text-align:justify">The Garden is located at the left side of the beach at Blue Bay Beach. Starting with a wave breaker, you will have an easy beach entrance and ascent. This reef consists of hills of coral gardens alternated with sandy rocky formations. This slopestyle reef, starting from 5 meters (15 feet) all the way to 35 meters (115 ft) is a great spot for beginners as advanced divers. Keep your eye out for turtles and rays in the deeper part. As between the big rocks on the shallow end, you can often find octopus, big green moray eels and shrimps. <a href="https://www.diveshopcuracao.com/en/guideddives">- <i>Shore dive from Blue Bay Beach - </i></a></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc58996f" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/uderwater_boat.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Superior Producer</h3>
+
+<p style="text-align:justify">This 240ft/72m cargo freighter sank in December 1977 whilst overloaded with cargo. It sits perfectly upright at a depth of 100ft/30m with easily accessible cargo holds and bridge. After more than 30 years in this spot, this wreck is covered with a variety of corals, orange cup and tube sponges are surrounded by watchful great barracudas and schooling tarpons. Superior Producer has been called one of the Caribbean’s best wreck dives. *Since this is a deep dive, an Advanced OWD certification is required.<a href="https://www.diveshopcuracao.com/en/activity/191058/2-tank-guided-boat-dive-superior-producer">- <i>Boat Dive -</i></a></p>
+
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc58fb69" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/many_lil_fish.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Mushroom Forest &amp;amp; Blue Room</h3>
+
+<p style="text-align:justify">Curacao's most famous dive site. Mushroom Forest has his name because of the oddly shaped corals which are growing vertically on a sandy plateau, looking like big mushrooms. Next, to this great coral structures, you may spot lobsters, crabs, turtles, rays or even a nurse shark here! Located on this site you also have the Blue Room. With an entrance just above and under the surface, you can enter this little cave while diving and snorkeling! This unique place is a great place to end the dive while being surround by glassy eye sweepers.<a href="https://www.diveshopcuracao.com/en/activity/240613/west-coast-day-trip"><i><br/>
+- Boat Dive -</i></a></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc597739" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/hole.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Hole 6</h3>
+
+<p style="text-align:justify">Hole 6 (also called Kaap Mal Meeuw) is one of our hidden treasures! This excellent dive site has a healthy wall of coral abounds with schools of reef fish. Admire the beautiful old Elkhorn and Staghorn corals as well as the great star coral and fan corals. The area is a true treat for the eye.<br/>
+<a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive"><i>- Boat Dive -</i></a></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc59f434">
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/snake_bay.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Snake Bay</h3>
+
+<p style="text-align:justify">This dive site is located at the southeast end of Boka St. Michiel. It’s named after the many eels (rather than snakes), which are often seen here. Same goes for the Southern stingray! Big healthy sponges can be found here surrounded by plenty of fish and big hard corals. Sometimes you can spot a tuna here.<br/>
+<i>-<a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive"> Boat or shore Dive -</a></i></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc5a5b95" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/yg_boat.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Tugboat</h3>
+
+<p style="text-align:justify">The Tugboat is the most popular snorkel site of Curaçao, but also great for scuba diving. It is located in a sheltered and shallow bay (Caracas Bay) on the island’s southwestern coast. This dive site, which you can find at a depth of 5 meters (16 ft), is 9-meters (29,5 ft) long and covered by corals, sponges, and sea fans. Next to this wreck, this dive site is also home to a big variety of colorful reef fish and macro creatures. Along the shore of this site, you will see some local historical points of interest, like the quarantine building.<br/>
+<a href="https://www.diveshopcuracao.com/en/activity/249474/east-coast-day-trip">- Boat or shore Dive -</a><i></i></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc5adbac" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/lovers_b.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Lover’s Beach</h3>
+
+<p style="text-align:justify">Named after the romantic bench on the cliff and small beach. This dive site has many beautiful colonies of star coral, gorgonians and tube sponges. Common fish include spotted drum, blennies, gobies, and parrotfish. But in the sandy area, you can find stingrays! For example a southern stingray or spotted eagle ray.<br/>
+<a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive"><i>- Boat Dive -</i></a></p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc5b4e89" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/double.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Double Reef</h3>
+
+<p style="text-align:justify">Two beautiful reefs in one dive! The first reef starts at 5m (15ft) and the second one at 15m (45ft). First one has a lot of beautiful fan corals, yellow pencil corals and small colonies of brain coral. The second reef has a bigger variety of hard corals. On both reefs, you can find plenty of Caribbean fish and sea turtles! On the sandy patch between the two reefs, you can usually spot a ray every now and then.<br/>
+<a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive"><i>- Boat Dive - </i></a></p>
+
+<p> </p>
+</div>
+
+<div class="clear"></div>
+<div class="container" style="margin-top: 16px;">
+<div style="float: left; margin: 0 10px 10px 0; width:40%">
+    <a id="img_61069bc5bb9fd" >
+<img style="width: 100%" src="/bluebaydive_theme/static/src/img/car_wrek.jpg"  alt="" title=""/>
+    </a>
+</div>
+
+<h3>Car Wrecks</h3>
+
+<p style="text-align: justify;">This is a fun, deep dive site, full of dozens of car wrecks. The wrecks can be found around the 27-39m (90-230ft). Due to an accident with a platoon, where they were standing on, sank. The chrome of the cars still look as new, but the cars itself are pretty much gone. A lot of lionfish like to hide between the wrecks. Usually, a hawksbill turtle is hanging around as well.<br/>
+<a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive">- Boat Dive - </a></p>
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+</div>
+    </div>
+   </xpath>
+  </template>
+  
+</odoo>

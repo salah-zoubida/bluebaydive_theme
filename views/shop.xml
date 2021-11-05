@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<template id="products" name="products" inherit_id="website_sale.products">
+	<xpath expr="//div[@id='wrap']" position="attributes">
+	  	<attribute name="style">display:none;</attribute>
+	</xpath>
+	<xpath expr="//div[@id='wrap']" position="after">
+		<div id="wrap" style="margin-top:7%;line-height: 1.42857143;font-size: 20px;">
+    		<div class="inner-wrapper">
+    
+          <div class="container">
+            <div class="row d-flex align-items-stretch">
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+            <t t-foreach="bins" t-as="tr_product">
+            <t t-foreach="tr_product" t-as="td_product">
+           <!-- <t t-foreach="product_ids" t-as="product_id"> -->
+           	<t t-set="product_id" t-value="td_product['product']" />
+             <t t-set="product_href" t-value="keep(product_id.website_url, page=(pager['page']['num'] if pager['page']['num']&gt;1 else None))" />
+
+        <t t-set="combination_info" t-value="product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)"/>
+
+  <div class="col-lg-4 product_col_big s_col_no_bgcolor pt16 pb16">
+                            <div class="card bg-white h-100 border rounded" style="border-width: 0px !important; border-radius: 0px !important;">
+                     			<a t-att-href="product_href" itemprop="url">
+                                <t t-set="image_holder" t-value="product_id._get_image_holder()"/>
+                  				
+                                <img t-if="product_id.image_1024"
+                                  t-att-src="'/web/image/product.template/%s/image_1024' % product_id.id"
+                                  class="card-img-top"
+                                  />
+                              </a>
+
+                                  
+                                <div class="card-body">
+                                   <t t-if="product_id.name">
+                                    <h3 class="card-title-blue normal-teaser-title" t-esc="product_id.name" />
+                                     </t>
+                                    <p class="card-text-span text-justify normal-teaser-description">
+                                        <span t-esc="product_id.description_product" />
+                                        <span t-if="product_id.description_product" class="dotted_flow">...</span>
+                                    </p>
+                                    <p>
+                                      <div class="row">
+                                        <div class="col-4" style="padding-right: 0px;padding-left: 0px;">
+
+                                          <a tt-att-href="product_href" itemprop="url" class=" text-uppercase btn button-no-radios btn-primary mb-2 o_default_snippet_text">Book Now</a>
+                                        </div>
+                                        <div class="col-8">
+
+                                            <div>
+                                              <b>
+                                                <span >From</span>
+                                                <span style=" float: right;" t-esc="combination_info['price']"   t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" >From</span>
+                                              </b>
+                                          </div>
+                                           
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+            </t>
+
+            </div>
+          </div>
+<!--         </section>
+ -->
+
+
+        </div>	
+      </div>
+	</xpath>
+	
+</template>
+</odoo>

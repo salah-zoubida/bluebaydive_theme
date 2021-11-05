@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="product_category_public_deals" model="product.public.category">
+            <!-- <field name="parent_id" ref="product.product_category_public_all"/> -->
+            <field name="name">Deals</field>
+        </record>
+        <record id="product_category_public_tour_trips" model="product.public.category">
+            <!-- <field name="parent_id" ref="product.product_category_public_all"/> -->
+            <field name="name">Tour &amp; Trips</field>
+        </record>
+
+        <record id="product_category_boat_trips" model="product.public.category">
+            <field name="parent_id" ref="product_category_public_tour_trips"/>
+            <field name="name">Boat Trips</field>
+        </record>
+
+        <record id="product_category_snorkeling" model="product.public.category">
+            <field name="parent_id" ref="product_category_public_tour_trips"/>
+            <field name="name">Snorkeling</field>
+        </record>
+
+        <record id="product_category_watersports_rental" model="product.public.category">
+            <field name="parent_id" ref="product_category_public_tour_trips"/>
+            <field name="name">Watersports Rental</field>
+        </record>
+
+        <record id="product_category_fishing" model="product.public.category">
+            <field name="parent_id" ref="product_category_public_tour_trips"/>
+            <field name="name">Fishing Trips in curacao</field>
+        </record>
+
+        <record id="product_category_cura_activities" model="product.public.category">
+            <field name="parent_id" ref="product_category_public_tour_trips"/>
+            <field name="name">Activities on curacao</field>
+        </record>
+
+        <record id="product_category_curacao_diving" model="product.public.category">
+            <!-- <field name="parent_id" ref="product.product_category_public_all"/> -->
+            <field name="name">Curacao dinving</field>
+        </record>
+         <record id="product_category_start_diving" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Start Diving</field>
+        </record>
+         <record id="product_category_padi_diving" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Padi Dive Courses</field>
+        </record>
+         <record id="product_category_guided_dive_trips" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Guided Dive Trips</field>
+        </record>
+         <record id="product_category_kids_diving" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Kids Diving</field>
+        </record>
+
+         <record id="product_category_dive_master" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Divemaster/instructor Courses</field>
+        </record>
+
+         <record id="product_category_padi_speciality" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Padi Speciality Courses</field>
+        </record>
+
+         <record id="product_category_tec_diving" model="product.public.category">
+            <field name="parent_id" ref="product_category_curacao_diving"/>
+            <field name="name">Tec Diving</field>
+        </record>
+
+    </data>
+</odoo>

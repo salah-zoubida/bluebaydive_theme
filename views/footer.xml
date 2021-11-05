@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+
+	<template id="template_footer_descriptive" inherit_id="website.layout" name="Descriptive" active="True">
+    	<xpath expr="//div[@id='footer']" position="replace">
+    		<div id="footer" class=" footer-class oe_structure oe_structure_solo" >
+    			<div id="footer-wrapper" class="container">
+    	<div class="row">
+        <div id="footer-cell1" class="col-md-4 col-sm-12">
+            <p><a href="http://www.diveshopcuracao.com/en/startdiving"><span style="color:#2980b9;">Learn to dive</span></a></p>
+
+			<p><a href="https://www.diveshopcuracao.com/en/padiinstructorcourses"><span style="color:#2980b9;">Dive Career</span></a></p>
+			<p><a href="https://www.diveshopcuracao.com/en/divedivisionclub"><span style="color:#2980b9;">Dive Division Club</span></a></p>
+			<p><a href="http://www.diveshopcuracao.com/en/jobs"><span style="color:#2980b9;">Jobs @ Blue Bay Dive</span></a></p>
+			<p><a href="https://www.diveshopcuracao.com/en/terms"><span style="color:#2980b9;">Terms &amp; Conditions</span></a></p>
+
+        </div>
+        <div id="footer-cell2" class="col-md-4 col-sm-12">
+            <p><a href="http://www.diveshopcuracao.com/en/diving"><span style="color:#2980b9;">Diving on Curacao</span></a></p>
+			<p><a href="http://www.diveshopcuracao.com/en/fishing"><span style="color:#2980b9;">Fishing on Curacao</span></a></p>
+			<p><a href="https://www.diveshopcuracao.com/en/activity/101905/2-tank-guided-boat-dive"><span style="color:#2980b9;">Boat Diving on Curacao</span></a></p>
+			<p><span style="color:#2980b9;"><a href="https://www.diveshopcuracao.com/en/watersports">Watersports on Curacao</a></span></p>
+			<p><a href="http://www.diveshopcuracao.com/en/tours"><span style="color:#2980b9;">Tours &amp; Activities on Curacao</span></a></p>
+          
+        </div>
+        <div id="footer-cell3" class="col-md-4 col-sm-12">
+            <p><span style="color:#2980b9;">Blue Bay Dive &amp; Watersports </span></p>
+			<p><span style="color:#2980b9;">Located at Blue Bay Beach</span></p>
+			<p><span style="color:#2980b9;">Willemstad, Curacao</span></p>
+			<p><a href="tel:+5999 888-5450"><span style="color:#2980b9;">+5999 888-5450</span></a></p>
+			<p><a href="Mailto:dive@bluebay-curacao.com" target="_blank"><span style="color:#2980b9;">Dive@BlueBay-Curacao.com</span></a></p>
+        </div>
+        <br class="clear"/>
+    </div>
+    <div class="row">
+
+        
+            <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                <p><img src="/bluebaydive_theme/static/src/img/ads_icon_standard_rgb.png" style="height:120px; width:120px"/>
+              </p>
+            </div>
+        
+        
+            <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                <p><img alt="" src="/bluebaydive_theme/static/src/img/dive-task-force-transparant.png" style="height:120px; width:209px"/></p>
+            </div>
+        
+        
+            <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                <p><img alt="" src="/bluebaydive_theme/static/src/img/padi-five-star-idc-transparant.png" style="height:120px; width:98px"/></p>
+            </div>
+        
+        
+            <div class="footer-column col-md-3 col-sm-6 col-xs-12">
+                <p><img alt="" src="/bluebaydive_theme/static/src/img/dive-division---transv1.png" style="height:120px; width:125px"/></p>
+            </div>
+        </div>
+
+    </div>
+    		</div>
+	    </xpath>
+	</template>
+	<template id="footer_no_copyright" inherit_id="website.layout" name="Footer No Copyright" active="True">
+    <xpath expr="//div[hasclass('o_footer_copyright')]" position="before">
+        <t t-set="no_copyright" t-value="True"/>
+    </xpath>
+</template>
+
+</odoo>

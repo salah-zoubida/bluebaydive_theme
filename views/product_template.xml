@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <template id="product_price">
+      <div itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="product_price mt16">
+          
+          <h4 class="oe_price_h4 css_editable_mode_hidden">
+              <span t-attf-class="text-danger oe_default_price {{'' if combination_info['has_discounted_price'] else 'd-none'}}" style="text-decoration: line-through; white-space: nowrap;"
+                  t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"
+              />
+              <span style="    text-align: right;
+			    text-transform: uppercase;margin-left:15%;font-size: .9em;">From</span>
+			    <b class="oe_price" style="color: #010101;font-size: 1.75em;font-weight: 700;white-space: nowrap;"  t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+              <span itemprop="price" style="display:none;" t-esc="combination_info['price']"/>
+              <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name"/>
+          </h4>
+
+          <h4 class="css_non_editable_mode_hidden decimal_precision" t-att-data-precision="str(website.currency_id.decimal_places)">
+          	<span style="    text-align: right;
+			    text-transform: uppercase;margin-left:15%;font-size: .9em;">From</span>
+            <span style="color: #010101;font-size: 1.75em;font-weight: 700;" t-field="product.list_price"
+                t-options='{
+                   "widget": "monetary",
+                   "display_currency": product.currency_id,
+               }'/>
+          </h4>
+
+      </div>
+    </template>
+
+
+    <template id="product" inherit_id="website_sale.product" active="True" customize_show="True" name="Product">
+       <xpath expr="//div[@id='wrap']" position="replace">
+           <div itemscope="itemscope" itemtype="http://schema.org/Product" id="wrap" class="js_sale">
+                <section t-attf-class="container py-2 oe_website_sale #{'discount' if combination_info['has_discounted_price'] else ''}" id="product_detail" t-att-data-view-track="view_track and '1' or '0'" >
+                	<div style="margin-top:10%;background-color:#f8f7f7;font-family: 'Montserrat'; font-size:20px">
+                    <div class="row hidden_div" >
+                        <div class="col-md-4">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a t-att-href="keep(category=0)">Products</a>
+                                </li>
+                                <li t-if="category" class="breadcrumb-item">
+                                    <a t-att-href="keep('/shop/category/%s' % slug(category), category=0)" t-field="category.name" />
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    <span t-field="product.name" />
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-md-8 " >
+                            <div class="form-inline justify-content-end">
+                                <t t-call="website_sale.search">
+                                    <t t-set="search" t-value="False"/>
+                                </t>
+                                <t t-call="website_sale.pricelist_list">
+                                    <t t-set="_classes" t-valuef="ml-2"/>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin:15px">
+
+                            <h1 itemprop="name" t-field="product.name">Product Name</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-xl-8">
+                            <t t-call="website_sale.shop_product_carousel"/>
+                            <div class="row">
+                            	<div class="col">
+                            		<div itemprop="description" t-field="product.description_product" class="oe_structure oe_empty mt16 text-justify" id="description_product" style="margin: 45px;"/>
+                            	</div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xl-3 pl-0 pr-0" id="product_details" >
+                        	<div id="price_div" class="col" style="background-color:white; margin:15px; height: 35%;">
+                            <span itemprop="url" style="display:none;" t-esc="product.website_url"/>
+                           <!--  <form t-if="product._is_add_to_cart_possible()" action="/shop/cart/update" method="POST"> -->
+
+                            	<form class="w-md-50" t-attf-action="/calendar/#{ slug(product) }/booking" METHOD="GET">
+                                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                                <!-- <input type="hidden" name="product_id" t-att-value="product.id"/> -->
+                                <div class="js_product js_main_product">
+                                    <t t-placeholder="select" style="display:none;">
+                                        <input type="hidden" class="product_id" name="product_id" t-att-value="product_variant.id" />
+                                        <input type="hidden" class="product_template_id" name="product_template_id" t-att-value="product.id" />
+                                        <t t-if="combination" t-call="sale.variants">
+                                            <t t-set="ul_class" t-value="'flex-column'" />
+                                            <t t-set="parent_combination" t-value="None" />
+                                        </t>
+                                        <t t-else="">
+                                            <ul class="d-none js_add_cart_variants" t-att-data-attribute_exclusions="{'exclusions: []'}"/>
+                                        </t>
+                                    </t>
+                                    <div><t t-call="bluebaydive_theme.product_price" /></div>
+                                    <p t-if="True" class="css_not_available_msg alert alert-warning">This combination does not exist.</p>
+                                    <div><hr /></div>
+                                    <div><p>+1 ADDITIONAL OPTIONS</p></div>
+                                    <a role="button" id="add_to_cart" class="btn btn-primary btn-lg mt16 js_check_product a-submit d-block d-sm-inline-block" href="#" style="color: black;border-radius: 0rem !important;width:100%;margin-top: 10% !important;">BOOK NOW</a>
+                                    <a role="button" class="btn btn-primary btn-lg mt16 a-submit d-block d-sm-inline-block" href="#" style="color: black;border-radius: 0rem !important;width:100%;margin-top: 35% !important;">INQUIRE BOOKING </a>
+                                    <div id="product_option_block"/>
+
+                                </div>
+                            </form>
+                <!--             <p t-elif="not product.active" class="alert alert-warning">This product is no longer available.</p>
+                            <p t-else="" class="alert alert-warning">This product has no valid combination.</p> -->
+                            <hr t-if="product.description_sale" />
+                            <div>
+                                <p t-field="product.description_sale" class="text-muted mt-3" placeholder="A short description that will also appear on documents." />
+                                <div id="product_attributes_simple">
+                                    <hr t-if="sum([(1 if len(l.value_ids)==1 else 0) for l in product.attribute_line_ids])"/>
+                                    <p class="text-muted">
+                                        <t t-set="single_value_attributes" t-value="product.valid_product_template_attribute_line_ids._prepare_single_value_for_display()"/>
+                                        <t t-foreach="single_value_attributes" t-as="attribute">
+                                            <span t-field="attribute.name"/>:
+                                            <t t-foreach="single_value_attributes[attribute]" t-as="ptal">
+                                                <span t-field="ptal.product_template_value_ids._only_active().name"/><t t-if="not ptal_last">, </t>
+                                            </t>
+                                            <br/>
+                                        </t>
+                                    </p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="col" style="height: 5%;"></div>
+                           <div id="ifram_div" class="col" style="background-color: white;padding: 15px;margin: 15px;">
+                           	<iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertysummary?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 310px" frameborder="0"></iframe>
+                           </div>
+                           <div id="share_div">
+                           	<!-- Sharingbutton Facebook -->
+								<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+								  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+								    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+								    </div>
+								  </div>
+								</a>
+                           </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="container " style="font-family: 'Montserrat';">
+                    	<div class=" menu-left" style="background-color:#f8f7f7;">
+                    	    <ul class="tabs clearfix" id="toggle">
+	                    
+			                    <li class="tablink"  id="itinerary">
+	        	        	        <a href="#itinerary">Itinerary</a>
+	            		        </li>
+	                    
+	                    
+	                    		<li class="tablink"  id="reviews">
+	                        		<a href="#reviews">Reviews</a>
+	                    		</li>
+	                    
+                			</ul>
+                        </div>
+                            	<div class="" style="background-color:white;">
+                            		
+                            		<div id="itinirary_tab" class="tabcontent" >
+                            			<div itemprop="itinirary" t-field="product.itinirary" class="oe_structure oe_empty mt16" id="itinirary"/>
+                            		</div>
+                            		<div id="iframe_tab" class="tabcontent" >
+                            			<iframe src="https://www.tripadvisor.com/WidgetEmbed-cdspropertydetail?locationId=4545228&amp;partnerId=D6282B2F6A53462795614F9FCD066B22&amp;display=true" width="100%" style="height: 85em" frameborder="0"></iframe>
+                            		</div>
+                            	</div>
+                    </div>
+                </section>
+                <div style="display: none;" itemprop="description" t-field="product.website_description" class="oe_structure oe_empty mt16" id="product_full_description"/>
+            </div>
+        </xpath>
+
+       <!--  <xpath expr="//div[@id='wrap']" position="attributes">
+            <attribute name="style">margin-top:10%;</attribute>
+        </xpath>
+         <xpath expr="//div[@id='wrap']/section/div" position="attributes">
+            <attribute name="style">display:none;</attribute>
+        </xpath>
+        <xpath expr="//div[@id='wrap']/section" position="attributes">
+            <attribute name="style">background-color:#f8f7f7;</attribute>
+        </xpath>
+         <xpath expr="//div[@id='wrap']/section/div[2]" position="before">
+            <div style="margin:10px;" class="row"><h1 itemprop="name" t-field="product.name">Product Name</h1></div>
+        </xpath> 
+
+        <xpath expr="//form" position="replace">
+	         <form t-if="product._is_add_to_cart_possible()" action="/shop/cart/update" method="POST">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+                    <div class="js_product js_main_product">
+                        <t t-placeholder="select">
+                            <input type="hidden" class="product_id" name="product_id" t-att-value="product_variant.id" />
+                            <input type="hidden" class="product_template_id" name="product_template_id" t-att-value="product.id" />
+                            <t t-if="combination" t-call="sale.variants">
+                                <t t-set="ul_class" t-value="'flex-column'" />
+                                <t t-set="parent_combination" t-value="None" />
+                            </t>
+                            <t t-else="">
+                                <ul class="d-none js_add_cart_variants" t-att-data-attribute_exclusions="{'exclusions: []'}"/>
+                            </t>
+                        </t>
+                        <t t-call="website_sale.product_price" />
+                        <p t-if="True" class="css_not_available_msg alert alert-warning">This combination does not exist.</p>
+                        <a role="button" id="add_to_cart" class="btn btn-primary btn-lg mt16 js_check_product a-submit d-block d-sm-inline-block" href="#">Book Now</a>
+                        <div id="product_option_block"/>
+                    </div>
+                </form>
+        </xpath>  -->
+    </template>
+
+    <template id="product_quantity" inherit_id="website_sale.product_quantity" customize_show="True" name="Select Quantity hide">
+      <xpath expr="//div" position="attributes">
+        <attribute name="style">display:none;</attribute>
+      </xpath>
+    </template>
+
+
+
+</odoo>
